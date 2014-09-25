@@ -489,12 +489,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 }
 
 .scroll-nav__item {
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 1.2em;
-  margin: 0 auto;
   overflow: hidden;
-  width: 40px;
 }
 .scroll-nav__item:before {
   color: #fff;
