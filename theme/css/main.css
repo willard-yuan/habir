@@ -470,10 +470,9 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
   border-bottom: 2px solid #fff;
   color: #fff;
   display: block;
-  font-family: "Alfa Slab One", Georgia, serif;
+  font-family: 'Yanone Kaffeesatz',Georgia,"Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;
   font-size: 1.2em;
   margin-bottom: 15px;
-  overflow: hidden;
   padding-bottom: 10px;
   padding-top: 10px;
   text-align: center;
