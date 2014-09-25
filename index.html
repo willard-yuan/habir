@@ -56,18 +56,18 @@
 <h2>数据库说明</h2>
 <p>数据库<code>cifar_10yunchao.mat</code>是来自<a href="http://www.unc.edu/~yunchao/">Yunchao Gong</a>在<a href="http://www.cs.toronto.edu/~kriz/cifar.html">CIFAR10</a>提取的320维GIST特征，第321维是图像的类别标签</p>
 <h2>待做事项</h2>
-<ul>
+<p><ul>
 <li>完善文档</li>
 <li>绘制recall vs. the number of top retrieved samples曲线</li>
-<li>再添加一个数据库</li>
+<li>再添加一个数据库</li></p>
 </ul>
 <h2>运行环境</h2>
-<ul>
+<p><ul>
 <li>64位系统（主要是图像数据库比较大，Windows或Linux都可以）</li>
 <li>16g内存（我电脑是16g的，8g的应该也行）</li>
-</ul>
+</ul></p>
 <h2>版本更新</h2>
-<ul>
+<p><ul>
 <li>V1.4   2014/09/22<ul>
 <li>修复画MAP曲线的错误，重新以Gong Yunchao所用的计算曲线面积的方法画MAP曲线</li>
 <li>将原来画曲线时只运行一次改为运行多次（10次，程序中可以自己修改设定），对10次的MAP取平均，之所以这样做是因为不同的方法中用到了随机函数，通过运行多次减少每次运行结果的差异</li>
@@ -82,7 +82,7 @@
 <li>V1.2   成型版本: 2014/08/16---2014/08/19</li>
 <li>V1.1   初始版本: 2013/09/26</li>
 <li>V1.0   原型版本: 2013/07/22</li>
-</ul>
+</ul></p>
 <h2>结果演示</h2>
 <p>在64位编码下，查准率与召回率曲线如下：</p>
 <p align="center"><img src="./img/PR-64bits.png" alt="precision-recall-64bits"/></p>
