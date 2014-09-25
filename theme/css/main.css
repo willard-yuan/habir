@@ -456,7 +456,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 }
 .scroll-nav.fixed .scroll-nav__wrapper {
   position: fixed;
-  top: 60px;
+  top: 120px;
 }
 
 .scroll-nav__wrapper {
@@ -477,7 +477,6 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
   padding-top: 10px;
   text-align: center;
   text-shadow: 0 -1px 0 #006186;
-  width: 40px;
 }
 .scroll-nav__heading:before {
   font-size: 40px;
