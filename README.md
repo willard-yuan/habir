@@ -1,4 +1,4 @@
 HABIR
 =====
 
-This is the sroject site of various hashing methods for image retrieval which serves as the baselines.
+This is the project site of various [hashing methods for image retrieval](http://yongyuan.name/habir/) which serves as the baselines.
