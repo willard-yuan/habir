@@ -70,6 +70,18 @@
 <li>64位系统（主要是图像数据库比较大，Windows或Linux都可以）</li>
 <li>16g内存（我电脑是16g的，8g的应该也行）</li>
 </ul></p>
+<h2>评价指标</h2>
+<p>在64位编码下，查准率与召回率曲线如下：</p>
+<p align="center"><img src="./img/PR-64bits.png" alt="precision-recall-64bits"/></p>
+
+<p>平均检索精度MAP随bits长度的变化</p>
+<p align="center"><img src="./img/MAP.png" alt="map-numbers-of-bits"/></p>
+
+<h2>检索实例</h2>
+<p >在对结果进行可视化时，先将CIFAR10数据库下载下来(下载地址见底下链接)，本页顶部所示的是用不同的编码方法对“马”，下面展示更多的检索结果：</p>
+<p align="center"><img src="./img/car_ID13_128_1.png" alt="horse"/></p>
+<p align="center"><img src="./img/car_ID13_128_2.png" alt="horse"/></p>
+
 <h2>版本更新</h2>
 <p><ul>
 <li>V1.5   2014/09/28<ul>
@@ -91,17 +103,6 @@
 <li>V1.1   初始版本: 2013/09/26</li>
 <li>V1.0   原型版本: 2013/07/22</li>
 </ul></p>
-<h2>评价指标</h2>
-<p>在64位编码下，查准率与召回率曲线如下：</p>
-<p align="center"><img src="./img/PR-64bits.png" alt="precision-recall-64bits"/></p>
-
-<p>平均检索精度MAP随bits长度的变化</p>
-<p align="center"><img src="./img/MAP.png" alt="map-numbers-of-bits"/></p>
-
-<h2>检索实例</h2>
-<p >在对结果进行可视化时，先将CIFAR10数据库下载下来(下载地址见底下链接)，本页顶部所示的是用不同的编码方法对“马”，下面展示更多的检索结果：</p>
-<p align="center"><img src="./img/car_ID13_128_1.png" alt="horse"/></p>
-<p align="center"><img src="./img/car_ID13_128_2.png" alt="horse"/></p>
 
 <h2>加入进来</h2>
 <p>如果你觉得这个对你有用，想加入进来的话，可以先clone过去，然后再Pull Requests.</p>                
