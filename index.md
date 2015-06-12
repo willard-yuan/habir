@@ -35,27 +35,34 @@ gist\_320d\_CIFAR-10\_yunchao下载地址：[gist_320d_CIFAR-10_yunchao.mat](htt
 
 ###收录进HABIR哈希图像检索工具箱的哈希方法
 - **PCA-ITQ**,**PCA-RR**: Iterative Quantization. 作者建立的项目详细信息请移步这里：[ITQ](http://www.unc.edu/~yunchao/itq.htm)。
->Yunchao Gong and Svetlana Lazebnik.  Iterative Quantization: A Procrustean Approach to Learning Binary Codes. In: IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2011.
+
+> Yunchao Gong and Svetlana Lazebnik.  Iterative Quantization: A Procrustean Approach to Learning Binary Codes. In: IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2011.
 
 - **SH**: Spectral Hashing. 作者建立的项目详细信息请移步这里：[SH](http://www.cs.huji.ac.il/~yweiss/SpectralHashing/)。
->Y. Weiss, A. Torralba, R. Fergus. Advances in Neural Information Processing Systems, 2008.
+
+> Y. Weiss, A. Torralba, R. Fergus. Advances in Neural Information Processing Systems, 2008.
 
 - **SpH**: Spherical Hashing. 作者建立的项目详细信息请移步这里：[SpH](http://sglab.kaist.ac.kr/Spherical_Hashing/)。
->Jae-Pil Heo, Youngwoon Lee, Junfeng He, Shih-Fu Chang, and Sung-eui Yoon. Spherical Hashing. CVPR, 2012.
+
+> Jae-Pil Heo, Youngwoon Lee, Junfeng He, Shih-Fu Chang, and Sung-eui Yoon. Spherical Hashing. CVPR, 2012.
 
 - **LSH**: Local Sensentive Hashing，经典方法。
 - **SKLSH**: Maxim Raginsky and Svetlana Lazebnik. 
->Locality-sensitive binary codes from shift-invariant kernels. Advances in Neural Information Processing 22, pp. 1509-1517, 2009.
+
+> Locality-sensitive binary codes from shift-invariant kernels. Advances in Neural Information Processing 22, pp. 1509-1517, 2009.
 
 - **PCAH**: PCA Hashing.
 - **DSH**: Density Sensitive Hashing. 项目主页请移步这里：[DSH](http://www.cad.zju.edu.cn/home/dengcai/Data/DSH.html).
->Z. Jin, C. Li, Y. Lin and D. Cai, "Density sensitive hashing," IEEE Transactions on Cybernetics, 44(8), pp. 1362-1371.
+
+> Z. Jin, C. Li, Y. Lin and D. Cai, "Density sensitive hashing," IEEE Transactions on Cybernetics, 44(8), pp. 1362-1371.
 
 - **CBE**: Circulant Binary Embedding.
->X. Yu, S. Kumar, Y. Gong, S.F. Chang. Circulant Binary Embedding. In Proceedings of the International Conference on Machine Learning (ICML), 2014.
 
-- **SELVE**: Sparse Embedding and Least Variance Encoding
->X. Zhu, L. Zhang and Z. Huang, "A Sparse Embedding and Least Variance Encoding Approach to Hashing," IEEE Transactions on Image Processing, 2014.
+> X. Yu, S. Kumar, Y. Gong, S.F. Chang. Circulant Binary Embedding. In Proceedings of the International Conference on Machine Learning (ICML), 2014.
+
+- **SELVE**: Sparse Embedding and Least Variance Encoding.
+
+> X. Zhu, L. Zhang and Z. Huang, "A Sparse Embedding and Least Variance Encoding Approach to Hashing," IEEE Transactions on Image Processing, 2014.
 
 **Note**:如果你要将SELVE加入对比中的话，请保持你的Matlab版本在2012及其以下，**非常重要**。
 
