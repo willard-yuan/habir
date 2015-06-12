@@ -18,10 +18,30 @@
 <p align="center"><img src="./img/horse_ID8_128_1.png" alt="horse"/></p>
 <p align="center"><img src="./img/horse_ID8_128_2.png" alt="horse"/></p>
 
-<h2>项目起源</h2>
-目前我主要致力于基于哈希方法的大规模图像检索。在研究的过程中，我发觉几乎很少有研究者提供不同对比方法的代码。这为研究带来了很大不便，而且我坚信在研究的过程中，我们应专注于新算法的设计，而不是新人进来时都得重新造轮子，我们可以在现有代码的基础上学习它，并将它进行拓展，为自己使用。</p>
-<p>于是，就有了你现在看到的这个<a href="https://github.com/willard-yuan/hashing-baseline-for-image-retrieval">hashing-baseline-for-image-retrieval</a>，希望它能够为关注基于哈希方法进行图像检索的小伙伴们带去些许帮助。</p>
+<h2>HABIR哈希图像检索工具箱是什么？</h2>
+HABIR哈希图像检索工具箱是一个用Matlab语言写的集成了经典哈希方法以及最近几年无监督哈希方法的基准框架，里面包含了针对图像检索的主流评价指标，使用该工具箱使得你可以专注于哈希方法的设计，其他性能评价这些方面的东西可以由它来帮你完成。
+
+<h2>为什么会有HABIR哈希图像检索工具箱？</h2>
+<p>目前我主要致力于大规模图像检索研究，在图像检索中除了专注与duplicate search外我也花很大力气在哈希大规模图像检索上。在研究的过程中，我发觉几乎很少有研究者提供不同对比方法的代码。这为研究带来了很大不便，而且我坚信在研究的过程中，我们应专注于新算法的设计，而不是新人进来时都得重新造轮子，我们可以在现有代码的基础上学习它，并将它进行拓展，为自己使用。于是，就有了你现在看到的这个[hashing-baseline-for-image-retrieval](https://github.com/willard-yuan/hashing-baseline-for-image-retrieval)，希望它能够为关注基于哈希方法进行图像检索的小伙伴们带去些许帮助。如果想深入了解哈希的话，这里总结的一篇博文对你非常的有帮助：[**Hashing图像检索源码及数据库总结**](http://yongyuan.name/blog/codes-of-hash-for-image-retrieval.html)</p>
 <p align="center"><img src="./img/HASHING.png" alt="hashing"/></p>
+<h2>怎样使用HABIR哈希图像检索工具箱？</h2>
+1. 下载数据库。在本地计算机上，HABIR的文件目录结构如下图所示：
+<p align="center"><img src="https://github.com/willard-yuan/hashing-baseline-for-image-retrieval/blob/master/doc/downfiles.png" alt="precision-recall-64bits"/></p>
+<p align="center">图1 工具包目录</p>
+<p align="center"><img src="https://github.com/willard-yuan/hashing-baseline-for-image-retrieval/blob/master/doc/CIFAR-10.png" alt="precision-recall-64bits"/></p>
+<p align="center">图2 CIFAR-10图像数据库目录</p>
+
+<p>可以看到这四个特征文件比较大，这4个文件可以到下面给出的链接中下载，下载完请按图1目录放置。</p>
+
+cnn\_1024d\_Caltech-256下载地址：[cnn_1024d_Caltech-256.mat](http://pan.baidu.com/s/1o67k5RG)</br>
+gist\_512d\_Caltech-256下载地址：[gist_512d_Caltech-256.mat](http://pan.baidu.com/s/1jG8ECZW)</br>
+cnn\_4096d\_Caltech-256下载地址：[cnn_4096d_Caltech-256.mat](http://pan.baidu.com/s/1eQIWkro)</br>
+gist\_320d\_CIFAR-10\_yunchao下载地址：[gist_320d_CIFAR-10_yunchao.mat](http://pan.baidu.com/s/1o61KSQI)</br>
+
+<p>另外一个比较大的文件是[CIFAR-10](http://www.cs.toronto.edu/~kriz/cifar.html)数据库，这个图像数据库请到官网下载对应的Matlab版，解压后按图2放置。</p>
+
+<p>**Note**:对于CNN特征的提取，可以使用我写的一个采用VGG训练已模型提取CNN特征的代码，[CNN-for-Image-Retrieval](https://github.com/willard-yuan/CNN-for-Image-Retrieval)。</p>
+
 <h2>哈希方法</h2>
 <ul>
 <li>
