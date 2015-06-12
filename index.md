@@ -90,10 +90,10 @@ V1.x版本演示结果如下，在64位编码下，查准率与召回率曲线�
 
 检索实例
 
-<img src="./doc/v1/horse_ID8_128_1.png" alt="horse"/>
-<img src="./doc/v1/horse_ID8_128_2.png" alt="horse"/>
-<img src="./doc/v1/car_ID13_128_1.png" alt="horse"/>
-<img src="./doc/v1/car_ID13_128_2.png" alt="horse"/>
+<p align="center"><img src="./doc/v1/horse_ID8_128_1.png" alt="horse"/></p>
+<p align="center"><img src="./doc/v1/horse_ID8_128_2.png" alt="horse"/></p>
+<p align="center"><img src="./doc/v1/car_ID13_128_1.png" alt="horse"/></p>
+<p align="center"><img src="./doc/v1/car_ID13_128_2.png" alt="horse"/></p>
 
 ###运行环境
 
