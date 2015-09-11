@@ -1,6 +1,7 @@
 # Site settings
 title: HABIR, hashing baseline for image retrieval
-tag_text: HIBIR
+tag_text: HABIR
+site.tag_subtext: HAshing Baseline for Image Retrieval
 description: Various hashing methods for image retrieval and serves as the baselines.
 
 # Build settings
