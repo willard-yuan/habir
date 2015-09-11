@@ -11,19 +11,17 @@ HABIR哈希图像检索工具箱是一个用Matlab语言写的集成了经典哈
 ###怎样使用HABIR哈希图像检索工具箱？
 1. 下载数据库。在本地计算机上，HABIR的文件目录结构如下图所示：
 <img src="./doc/downfiles.png" alt="precision-recall-64bits"/>
-
 <center>图1 工具包目录</center>
 
 <img src="./doc/CIFAR-10.png" alt="precision-recall-64bits"/>
-
 <center>图2 CIFAR-10图像数据库目录</center>
 
 可以看到这四个特征文件比较大，这4个文件可以到下面给出的链接中下载，下载完请按图1目录放置。
 
-cnn\_1024d\_Caltech-256下载地址：[cnn_1024d_Caltech-256.mat](http://pan.baidu.com/s/1o67k5RG)
-gist\_512d\_Caltech-256下载地址：[gist_512d_Caltech-256.mat](http://pan.baidu.com/s/1jG8ECZW)
-cnn\_4096d\_Caltech-256下载地址：[cnn_4096d_Caltech-256.mat](http://pan.baidu.com/s/1eQIWkro)
-gist\_320d\_CIFAR-10\_yunchao下载地址：[gist_320d_CIFAR-10_yunchao.mat](http://pan.baidu.com/s/1o61KSQI)
+- cnn\_1024d\_Caltech-256下载地址：[cnn_1024d_Caltech-256.mat](http://pan.baidu.com/s/1o67k5RG)
+- gist\_512d\_Caltech-256下载地址：[gist_512d_Caltech-256.mat](http://pan.baidu.com/s/1jG8ECZW)
+- cnn\_4096d\_Caltech-256下载地址：[cnn_4096d_Caltech-256.mat](http://pan.baidu.com/s/1eQIWkro)
+- gist\_320d\_CIFAR-10\_yunchao下载地址：[gist_320d_CIFAR-10_yunchao.mat](http://pan.baidu.com/s/1o61KSQI)
 
 另外一个比较大的文件是[CIFAR-10](http://www.cs.toronto.edu/~kriz/cifar.html)数据库，这个图像数据库请到官网下载对应的Matlab版，解压后按图2放置。
 
@@ -72,17 +70,22 @@ gist\_320d\_CIFAR-10\_yunchao下载地址：[gist_320d_CIFAR-10_yunchao.mat](htt
 ###V2.0版本结果演示
 V2.0版本演示结果如下，左边为Precision-Recall曲线，中间为Recall-The number of retrieved samples曲线，右边为Precision-The number of retrieved samples曲线：
 <img src="./doc/together_png/128bits.png" alt="precision-recall-64bits"/>
-图3: 128位编码
+<center>图3: 128位编码</center>
+
 <img src="./doc/together_png/64bits.png" alt="precision-recall-64bits"/>
-图4: 64位编码
+<center>图4: 64位编码</center>
+
 <img src="./doc/together_png/32bits.png" alt="precision-recall-64bits"/>
-图5：32位编码
+<center>图5：32位编码</center>
+
 <img src="./doc/together_png/16bits.png" alt="precision-recall-64bits"/>
-图6：16位编码
+<center>图6：16位编码</center>
+
 <img src="./doc/together_png/8bits.png" alt="precision-recall-64bits"/>
-图7：8位编码
+<center>图7：8位编码</center>
+
 <img src="./doc/together_png/mAP.png" alt="precision-recall-64bits"/>
-图8：不同编码位下mAP曲线(run times = 1)
+<center>图8：不同编码位下mAP曲线(run times = 1)</center>
 
 **Tips**：为了对图片进行润色，推荐你用Adobe Illustrator对其进行处理使得其更加美观。
 
@@ -99,7 +102,7 @@ V1.x版本演示结果如下，在64位编码下，查准率与召回率曲线�
 
 <img src="./doc/v1/MAP.png" alt="map-numbers-of-bits"/>
 
-检索实例
+<center>检索实例</center>
 
 <p align="center"><img src="./doc/v1/horse_ID8_128_1.png" alt="horse"/></p>
 <p align="center"><img src="./doc/v1/horse_ID8_128_2.png" alt="horse"/></p>
