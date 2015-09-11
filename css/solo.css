@@ -23,6 +23,13 @@ body {
   }
 }
 
+.top-bar {
+  background-color: lightyellow;
+  line-height: 32px;
+  color: #666;
+  border-bottom: 5px solid #ed5252 ;;
+}
+
 a {
   color: #0074d9; /* From http://clrs.cc */
   text-decoration: none;
