@@ -11,9 +11,12 @@ HABIR哈希图像检索工具箱是一个用Matlab语言写的集成了经典哈
 ###怎样使用HABIR哈希图像检索工具箱？
 1. 下载数据库。在本地计算机上，HABIR的文件目录结构如下图所示：
 <img src="./doc/downfiles.png" alt="precision-recall-64bits"/>
-图1 工具包目录
+
+<center>图1 工具包目录</center>
+
 <img src="./doc/CIFAR-10.png" alt="precision-recall-64bits"/>
-图2 CIFAR-10图像数据库目录
+
+<center>图2 CIFAR-10图像数据库目录</center>
 
 可以看到这四个特征文件比较大，这4个文件可以到下面给出的链接中下载，下载完请按图1目录放置。
 
